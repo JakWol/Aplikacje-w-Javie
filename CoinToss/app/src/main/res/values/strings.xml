@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Coin Toss</string>
+    <string name="txt">Heads</string>
+</resources>

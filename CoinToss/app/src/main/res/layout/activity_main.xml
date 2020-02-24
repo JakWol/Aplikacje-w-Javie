@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/TextAppear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt" />
+
+    <ImageView
+        android:id="@+id/CoinImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@android:dimen/notification_large_icon_width"
+        app:srcCompat="@drawable/head" />
+
+    <RelativeLayout
+        android:id="@+id/belowLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/Toss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+            android:layout_marginRight="@android:dimen/notification_large_icon_width"
+            android:layout_marginBottom="@android:dimen/app_icon_size"
+            android:text="Toss" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
